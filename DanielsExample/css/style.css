@@ -1,0 +1,344 @@
+/* other stuff*/
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    
+}
+.gray{
+    background-color: gainsboro;
+}
+nav a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgb(199, 199, 199) !important;
+
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.text-white-color{
+    color:azure !important;
+}
+.default-text-font{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.hello{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+.hello-dev{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #343434;
+    font-weight: 400;
+}
+.m-new{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.iconsfa{
+    width: 70px;
+    height: 70px;
+    transition: all 0.5s;
+}
+
+.sussy-man:hover{
+    .iconsfa{
+        background-color: #343434;
+        color: white;
+    }
+}
+
+.paddingtop{
+    padding-top: 33px;
+    padding-left: 2px;
+}
+
+
+
+
+
+
+
+/* end of other stuff */
+
+
+
+/* header */
+#home{
+    background-image: url("../images/dadadad01.jpg");
+    background-position: center;
+    background-size: cover;
+    
+
+    
+}
+.icon{
+    width: 3rem;
+    height: 3rem;
+    margin: 8px 0px;
+    
+}
+.iconimg{
+    width: 4rem;
+    height: 4rem;
+}
+
+/* end of header */
+
+
+/* About */
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+.Aboutme{
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5px;
+}
+.btn1{
+    width: 150px;
+    height:40px;
+}
+.btn2{
+    width: 135px;
+    height:40px;
+}
+.ABOUT{
+    margin: 70px 0;
+}
+/* end of aBout */
+
+
+/* Services */
+.Services-Title{
+    font-size: 50px;
+}
+
+.service-card-size{
+    width: 350px;
+    height: 250px;
+}
+
+.services-bg{
+    background-color: rgba(52, 52, 52,0.1);
+}
+.navbar-dark{
+    color: grey !important;
+}
+
+/* end of Services */
+
+/* Portfolio */
+
+#portfolio{
+
+}
+
+.p-imgs{
+    width: 300px;
+    height: auto;
+    vertical-align: middle;
+    transition: all 0.5s;
+}
+.portfolio-title{
+    font-size: 50px;
+    
+}
+
+.padding-img-hover{
+    top: 30px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    transition: all 0.5s;
+}
+.padding-img-hover:hover{
+    top: 10px;
+}
+
+.pt-hover,.pt-hover2,.pt-hover3,.pt-hover4,.pt-hover5,.pt-hover6{
+    opacity: 0;
+    transition: all 0.5s;
+    
+}
+.pt-hover:hover,.pt-hover2:hover,.pt-hover3:hover,.pt-hover4:hover,.pt-hover5:hover,.pt-hover6:hover{
+    opacity: 0.8;
+}
+
+
+.port-icon{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color: white;
+    background-color: #343434;
+    padding-top: 9px;
+}
+.port-icon:hover{
+    color: #343434;
+    background-color: white;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* end of Portfolio */
+
+
+/* Slider */
+
+.btn-slider{
+    width: 10px;
+    height: 10px;
+}
+.testemonial{
+    font-size: 50px;
+}
+#slider{
+    background-color: #F7F7F7;
+}
+#slider .carousel-indicators [data-bs-target]{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    
+    background-color:#343434;
+}
+
+/* end Of Slider */
+
+
+
+
+
+/* Team */
+
+#team{
+    background-color: #F7F7F7;
+}
+.team-content{
+    background-color: grey;
+}
+.team-title{
+    font-size: 50px;
+}
+.team-content h4{
+    font-size: 27.5px;
+}
+
+.team-overlay{
+    top: 7px;
+    bottom: 7px;
+    left: 7px;
+    right: 7px;
+    opacity: 0;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    margin: auto;
+}
+.team-overlay:hover{
+    transform: rotateY(360deg);
+    opacity: 1;
+}
+
+
+.icon-team{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+}
+.padding-icon{
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+}
+
+.icon-team:hover,.padding-icon:hover{
+    color: black;
+    background-color: white;
+    border: solid 1px black;
+    cursor: pointer;
+}
+.img-jogn{
+    width: 100%;
+    
+}
+
+.img-area{
+    overflow: hidden;
+    position: relative;
+}
+.img-area:hover img {
+    transform: scale(1.2);
+}
+.img-area img {
+    transition: all 0.4s ease 0s;
+}
+.img-area img {
+    width: 100%;
+}
+.img-area img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* end of team */
+
+
+/* Contact */
+
+.contact-title{
+    font-size: 50px;
+}
+.conticon{
+    background-color: #F7F7F7;
+    
+}
+
+.emailform,.nameform{
+    
+    background-color: #F7F7F7;
+    border-radius:2%;
+    border: none;
+}
+
+
+.longform{
+    
+    padding-bottom: 150px;
+    width: 100%;
+    text-align: start;
+    background-color: #F7F7F7;
+    border-radius:2%;
+    border: none;
+}
+
+/* end of Contact */
+
+footer .container-fluid{
+    height: 70px;
+    text-align: center;
+}
